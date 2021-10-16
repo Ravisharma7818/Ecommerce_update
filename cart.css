@@ -1,0 +1,214 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.head
+{
+ 
+    max-width: 1300px;
+    padding-right: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+
+
+}
+
+.logo
+{
+    margin-top: 1%;
+    height: 40px;
+    width: 200px;
+   margin-left: 4pc;
+   
+    
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+   
+    margin-left: 5pc;
+}
+
+
+.text
+{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.menu
+{
+    color: rgb(22, 2, 2);
+    
+     width: 50%;
+     height: 100px;
+    
+     width: 50%;
+     margin-left: 14pc;
+     
+}
+
+.menu ul
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+.menu ul li
+{
+    cursor: pointer;
+    margin-left: 5%;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+ 
+}
+.menu ul li:hover
+
+{
+    background: rgb(35, 224, 45);
+    box-shadow: 1px 0px 5px 1px gray;
+
+}
+
+
+
+/* Create Table */
+
+.tablecontainer
+{
+   
+    height: 700px;
+    margin: 5% 10%;
+   
+}
+table
+{ 
+    
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.cartinfo
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+th{
+
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+}
+
+.link
+{
+    text-decoration: none;
+    color: orangered;
+
+}
+
+.info
+{
+    margin-top: 15px;
+    padding: 8px;
+}
+
+input
+{
+    height: 30px;
+    width: 40px;
+    color: #ff523b;
+
+}
+
+.totalprice
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.totalprice table
+{
+    border-top: 4px solid rgb(255, 81, 0);
+    width: 100%;
+    max-width: 490px;
+   
+}
+td
+{
+    font-weight: bolder;
+
+}
+td:last-child
+{
+    text-align: right;
+}
+th:last-child
+
+{
+    text-align: right;
+}
+
+
+
+
+
+
+    /* Last Container */
+
+    
+ 
+.lastcontainer
+{
+   
+    border: 2px solid rgb(161, 5, 5);
+    height: 200px;
+    background: #000;
+    width: auto;
+    
+}
+.row5
+{
+    display: flex;
+}
+.col-4
+{
+    width: 20%;
+    margin-left: 3pc;
+}
+.image5
+{
+    
+    margin-left: 2pc;
+    float: left;
+    height: 30px;
+}
+.image6
+{
+    margin-left: 3pc;
+    height: 50px;
+    width: 220px;
+}
+.paragraph3
+{
+    color: rgb(189, 175, 175);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+

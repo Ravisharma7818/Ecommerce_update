@@ -1,0 +1,312 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.head
+{
+ 
+    max-width: 1300px;
+    padding-right: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+
+
+}
+
+.logo
+{
+    margin-top: 1%;
+    height: 40px;
+    width: 200px;
+   margin-left: 4pc;
+   
+    
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+   
+    margin-left: 5pc;
+}
+
+
+.text
+{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.menu
+{
+    color: rgb(22, 2, 2);
+    
+     width: 50%;
+     height: 100px;
+    
+     width: 50%;
+     margin-left: 14pc;
+     
+}
+
+.menu ul{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+   
+} 
+.menu ul li{
+
+    margin-left: 5%;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+   
+}
+.menu ul li:hover
+
+{
+    background: rgb(35, 224, 45);
+    box-shadow: 1px 0px 5px 1px gray;
+
+}
+
+/* SinglePageinfo */
+
+.imageinfo
+{
+    max-width: 807px;
+    margin: 0 auto;
+    margin-top: 3pc;
+    padding: 25px;
+    margin-left: 17pc;
+
+}
+
+.row1
+{
+    display: flex;
+    
+
+}
+.col-2
+{
+
+padding: 5px;
+width: 400px;
+
+}
+
+ select 
+{
+    border-color: rgb(247, 22, 22);
+    padding: 10px;
+}
+select:focus
+{
+    outline: none;
+}
+
+.button
+{
+    background-color: #ff2c10;
+     border-radius: 50px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: rgb(255, 255, 255);
+      height: 30px;
+      width: 150px;
+      outline:none ;
+      transition: background 0.5 s;
+
+}
+
+.button:hover
+{
+   background-color: rgb(78, 18, 3);
+
+}
+
+
+
+/* small Image */
+
+.smallimg
+{
+    display: flex;
+}
+
+.imgcol
+{
+    padding: 2px;
+    cursor: pointer;
+    border: 1px dotted gold;
+}
+
+
+
+
+
+
+
+
+
+/* All Product  */
+
+.seccontainer
+{
+  
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 8pc;
+
+
+}
+
+
+.colsec
+{
+    display: flex;
+    margin-left: 10pc;
+
+}
+.imag1
+{
+    
+    transition: transform 0.5s; 
+}
+.imag1:hover
+{
+transform: translateY( 5px)
+}
+.image
+{
+ 
+    height: 250px;
+    width: 200px;
+    margin-left: 1pc;
+    
+}
+
+.pricetag
+{
+    color: red;
+     text-align:center;
+}
+.star{
+    text-align: center;
+    color: red;
+}
+
+
+
+
+
+.no
+{
+    
+    max-width: 700px;
+    background-color: rgb(255, 255, 254); 
+    height: 50px;
+    margin:0 auto;
+    margin-top: 3pc;
+    margin-left: 27%;
+    /* background-color: orchid; */
+    cursor: pointer;
+
+
+
+}
+.digit
+{
+
+float: left;
+text-decoration: none;
+list-style: none;
+font-size: 20px;
+padding: 1px 10px 0px 10px;
+font-weight: 500;
+line-height: 30px;
+margin-left: 1pc;
+border: 1px solid orangered;
+box-shadow: 2px 0px 1px 0px orangered;
+transition: 0.5s;
+
+
+}
+
+.digit:hover
+{
+
+  transform: rotate(10deg);
+}
+
+
+
+.digit1
+{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 500;
+    margin-left: 1pc;
+}
+
+
+/* Last Container */
+
+ 
+ 
+.lastcontainer
+{
+   
+    border: 2px solid rgb(161, 5, 5);
+    height: 200px;
+    background: #000;
+    width: auto;
+    
+}
+.row5
+{
+    display: flex;
+}
+.col-4
+{
+    width: 20%;
+    margin-left: 3pc;
+}
+.image5
+{
+    
+    margin-left: 2pc;
+    float: left;
+    height: 30px;
+}
+.image6
+{
+    margin-left: 3pc;
+    height: 50px;
+    width: 220px;
+}
+.paragraph3
+{
+    color: rgb(189, 175, 175);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+

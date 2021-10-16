@@ -1,0 +1,904 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    width: 100%;
+    background: radial-gradient(#fff,#ffd6d6);
+
+    height: 670px;
+}
+.head{
+ 
+    max-width: 1300px;
+    padding-right: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+   
+}
+.header
+{
+    
+    width: 50%;
+    height: 30px;
+}
+
+.logo
+{
+    margin-top: 1%;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(255, 255, 250);
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.menu
+{
+    color: rgb(22, 2, 2);
+    
+     width: 50%;
+     height: 100px;
+     display: inline-block;
+   
+    width: 50%;
+   
+}
+
+.menu ul{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: inline-block;
+   
+} 
+.menu ul li{
+
+    margin-left: 5%;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+   
+}
+
+.menu ul li:hover
+
+{
+    background: rgb(35, 224, 45);
+    box-shadow: 1px 0px 5px 1px gray;
+
+}
+
+
+
+
+
+
+.lefttext{
+    float: left;
+    margin-top: 10%;
+    
+  
+}
+.rightimage
+{
+    height: 600px;
+    width: 600px;
+    margin-left: 22%;
+   
+}
+.button
+{
+    background-color: #ff523b;
+     border-radius: 50px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: white;
+      height: 30px;
+      width: 150px;
+      outline:none ;
+      transition: background 0.5 s;
+
+}
+.button:hover
+{
+   background-color: rgb(78, 18, 3);
+
+}
+
+/* Product */
+.contain
+{
+    margin: 0 auto;
+   max-width: 1280px;
+   margin-top: 100px;
+   margin-left: 13pc;
+   transition: 0.5s;
+
+}
+
+.contain:hover{
+
+    transform: translateY(-5px);
+  
+}
+.row1
+{
+    float: left;
+}
+.imag {
+  
+    height: 250px;
+    width:   270px;
+    margin-left: 3pc;
+
+}
+
+
+
+/* Latest Product Css */
+
+
+
+.seccontainer
+{
+    margin: 0 auto;
+   max-width: 1280px;
+   margin-top: 80px;
+ 
+}
+
+
+.colsec
+{
+    float: left;
+    margin-left: 6pc;
+}
+.imag1
+{
+    float: left;
+    transition: transform 0.5s; 
+}
+.imag1:hover
+{
+transform: translateY( 5px)
+}
+.image
+{
+  float: left;
+    height: 250px;
+    width: 200px;
+    margin-left: 2pc;
+    
+}
+
+.title
+{
+    text-align: center;
+    line-height:  60px;
+    position: relative;
+    margin-top: 400px;
+}
+.title::after
+{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+    
+}
+
+
+.pricetag
+{
+    color: red;
+     text-align:center;
+}
+.star{
+    text-align: center;
+    color: red;
+}
+
+
+/* Latest Offer */
+
+
+.offer
+{
+    margin: 0 auto;
+    margin-top: 80px;
+   
+   
+}
+.row
+{
+
+
+height: 700px;
+background: radial-gradient(#fff,#ffd6d6);
+}
+.col-1
+{
+    float: left;
+    margin-left: 2pc;
+    margin-left: 10%;
+    
+
+}
+
+.miband
+{
+    height: 500px;
+    width: 600px;
+    margin-top: 6pc;
+
+}
+
+.paragraph
+{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 400px;
+    text-align: justify;
+    line-height: 40px;
+    margin-top: 15pc;
+
+}
+.title1
+{
+    text-align: center;
+    line-height:  60px;
+    position: relative;
+    margin-top: 800px;
+}
+.title1::after
+{
+    content: '';
+    height: 5px;
+    width: 80px;
+    background-color: rgb(38, 5, 224);
+    border-radius: 5px;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+
+
+/* Testemonials */
+
+.title3
+{
+    text-align: center;
+    line-height:  60px;
+    position: relative;
+    margin-top: 80px;
+}
+.title3::after
+{
+    content: '';
+    height: 7px;
+    width: 80px;
+    border-radius: 6px;
+    bottom: 0;
+    position: absolute;
+    background-color: orangered;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.thirdcontainer
+{
+
+    margin: 0 auto;
+    max-width: 1040px;
+  
+    height: 300px;
+    margin-top: 40px;
+}
+.col-2
+{
+    width: 30%;
+    float: left;
+    margin-left: 1pc;
+    /* border: 2px solid rgb(97, 231, 56); */
+    height: 110%;
+    box-shadow: 0px 0px 10px 0px  rgb(189, 188, 185);
+    transition: 0.6s;
+}
+.col-2:hover
+{
+    transform: translateY(-40px);
+}
+
+.photo
+{
+ 
+    height: 150px;
+    border-radius: 90px;
+    margin-left: 5pc;
+    margin-top: 1pc;
+}
+.modelname
+{
+    text-align: center;
+    margin-top: 3px;
+}
+.paragraph2
+{
+  text-align:justify ;
+  margin: 25px;
+ 
+}
+
+
+
+/* Brands */
+
+.fourthcontainer
+{
+    margin: 0 auto;
+    max-width: 1040px;
+  
+    height: 300px;
+    margin-top: 40px;
+
+}
+.title4
+{
+    text-align: center;
+    line-height:  60px;
+    position: relative;
+    margin-top: 150px;
+}
+.title4::after
+{
+    content: '';
+    height: 5px;
+    width: 40px;
+    border-radius: 6px;
+    bottom: 0;
+    position: absolute;
+    background-color: orangered;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.col-3
+{
+   
+    float: left;
+    margin-left: 1.5pc;
+}
+.image3
+{
+    width: 100%;
+    cursor: pointer;
+   filter: grayscale(100%);
+}
+.image3:hover
+{
+    filter: grayscale(0%);
+}
+
+
+
+/* Last Container */
+
+.lastcontainer
+{
+
+    height: 200px;
+    position: absolute;
+    background: #000;
+    color: #8a8a8a;
+    width: 100%;
+}
+.col-4
+{
+    width: 20%;
+    float: left;
+margin-left: 4pc;
+}
+.image5
+{
+    
+    margin-left: 2pc;
+    float: left;
+    height: 30px;
+}
+.image6
+{
+    margin-left: 3pc;
+    height: 50px;
+    width: 220px;
+}
+.paragraph3
+{
+    color: rgb(189, 175, 175);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+@media only screen and  (max-width:320px)
+{
+
+    *
+    {
+        max-width: 320px;
+    }
+
+  .head
+{
+ 
+    max-width: 320px;
+    padding-right: 25px;
+    padding-right: 25px;
+ 
+   
+}
+
+    nav{
+        width: 100%;
+        height: 100px;
+        
+    }
+
+ 
+    .menu
+    {
+        color: rgb(22, 2, 2);
+        
+         width: 50%;
+         height: 100px;
+      display: none;
+        width: 50%;
+       
+    }
+    
+    
+.rightimage
+{
+    display: none;
+}
+
+/* Future Product */
+
+
+.contain
+{
+    
+   max-width: 320px; 
+   margin-top: 100px;
+   transition: 0.5s;
+   margin: 0;
+   margin-top: 2pc;
+
+   height: 660px;
+
+}
+
+.contain:hover{
+
+    transform: translateY(-5px);
+  
+}
+.row1
+{
+    display: block;
+
+    
+}
+.imag {
+  
+    height: 200px;
+    width:   200px;
+    margin-top: 2px;
+
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+.colsec{
+   
+    margin: 0;
+    margin-left: 1.7pc;
+}
+
+.imag1
+{
+
+    transition: transform 0.5s; 
+}
+.imag1:hover
+{
+transform: translateY( 5px)
+}
+.image
+{
+ 
+    height: 200px;
+    width: 180px;
+   
+   
+   
+    
+}
+
+.title
+{
+   
+    line-height:  60px;
+    position: relative;
+    margin-top: 0px;
+}
+.title::after
+{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+    
+}
+
+/* Mi Band */
+
+
+
+.offer
+{
+  
+    margin-top: 80px;
+    border: 2px solid rgba(180, 226, 11, 0.452);
+   
+   
+}
+.row
+{
+
+    border: 2px solid rgba(40, 155, 17, 0.452);
+height: 600px;
+background: radial-gradient(#fff,#ffd6d6);
+}
+
+
+.miband
+{
+    height: 250px;
+    width: 250px;
+    margin-top: 4pc;
+    border: 2px solid rgba(10, 4, 94, 0.452);
+   
+
+}
+
+.paragraph
+{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 260px;
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 5pc;
+    border: 2px solid greenyellow;
+    margin-left: 0px;
+    font-weight: 1000px;
+
+}
+
+
+/* Testimonials */
+
+
+
+
+.thirdcontainer
+{
+
+ 
+  max-width: 320px;
+
+    height: 320px;
+    margin-top: 40px;
+}
+.col-2
+{
+    width: auto;
+    height: 100%;
+    box-shadow: 0px 0px 10px 0px  rgb(189, 188, 185);
+    transition: 0.6s;
+    margin-top: 3pc;
+    border: 1px solid rgb(22, 20, 110);
+    margin-left: 0px;
+}
+.col-2:hover
+{
+    transform: translateY(0px);
+}
+
+.photo
+{
+ 
+    height: 50px;
+    border-radius: 90px;
+margin-left: 8pc;
+    margin-top: 1pc;
+}
+.modelname
+{
+    text-align: center;
+    margin-top: 3px;
+}
+.paragraph2
+{
+  text-align:justify ;
+  margin: 25px;
+ 
+}
+
+
+
+
+/* Brands */
+
+.fourthcontainer
+{
+    margin: 0 auto;
+    max-width: 130px;
+    border: 1px solid rgb(22, 20, 110);
+    height: 300px;
+    margin-top: 40px;
+
+}
+
+.col-3
+{
+ margin-left: 0pc;
+}
+.image3
+{
+    width: 100%;
+    cursor: pointer;
+   filter: grayscale(0%);
+}
+
+
+
+
+
+/* Last Container */
+
+.lastcontainer
+{
+
+ display: none;
+}
+
+
+h4
+{
+    margin-top: 2pc;
+    line-height: 50px;
+}
+}
+
+
+
+
+@media only screen and  (max-width:768px)
+{
+
+
+
+    
+    *
+    {
+        max-width: 768px;
+    }
+
+  .head
+{
+ 
+    max-width: 768px;
+    padding-right: 25px;
+    padding-right: 25px;
+ 
+   
+}
+
+    nav{
+        width: 100%;
+        height: 100px;
+        
+    }
+
+ 
+    .menu
+    {
+        color: rgb(22, 2, 2);
+        
+         width: 50%;
+         height: 100px;
+         display: inline-block;
+        width: 50%;
+       
+    }
+    
+.menu ul{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+} 
+.menu ul li{
+
+    margin-left: 1%;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu ul li:hover
+
+{
+    background: rgb(35, 224, 45);
+    box-shadow: 1px 0px 5px 1px gray;
+
+}
+
+    
+.rightimage
+{
+  height: 400px;
+  width: 400px;
+}
+
+/* Future Product */
+
+
+.contain
+{
+    
+   max-width: 320px; 
+   margin-top: 100px;
+   transition: 0.5s;
+   margin: 0;
+   margin-top: 2pc;
+
+   height: 660px;
+
+}
+
+.contain:hover{
+
+    transform: translateY(-5px);
+  
+}
+.row1
+{
+    display: block;
+
+    
+}
+.imag {
+  
+    height: 200px;
+    width:   200px;
+    margin-top: 2px;
+
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+.colsec{
+   
+    margin: 0;
+    margin-left: 1.7pc;
+}
+
+.imag1
+{
+
+    transition: transform 0.5s; 
+}
+.imag1:hover
+{
+transform: translateY( 5px)
+}
+.image
+{
+ 
+    height: 200px;
+    width: 180px;
+   
+   
+   
+    
+}
+
+.title
+{
+   
+    line-height:  60px;
+    position: relative;
+    margin-top: 0px;
+}
+.title::after
+{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+    
+}
+
+}
